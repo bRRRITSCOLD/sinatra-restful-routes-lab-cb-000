@@ -1,6 +1,6 @@
-<form method="post" action="/recipes">
-  Name<input type="text" name="name">
-  Ingredients<input type="text" name="ingredients">
-  Cook Time<input type="text" name="cook_time">
-  <input type="submit" value="submit">
+<form action="/recipes" method="post">
+  <p>Name: <input type="text" name="name"></p>
+  <p>Ingredients: <input type="text" name="content"></p>
+  <p>Cook Time: <input type="text" name="content"></p>
+  <p><input type="submit" id="submit"></p>
 </form>
