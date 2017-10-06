@@ -4,7 +4,7 @@ class ApplicationController < Sinatra::Base
     set :public_folder, 'public'
     set :views, 'app/views'
   end
-  getas '/' do
+  get '/' do
     erb :index
   end
 end
