@@ -1,5 +1,3 @@
-<h1>Edit <%= @recipe.name %> </h1>
-
 <form action="/recipes/<%= @recipe.id %>" method="POST">
   <input id="hidden" type="hidden" name="_method" value="patch">
 
